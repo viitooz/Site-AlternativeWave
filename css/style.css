@@ -1,0 +1,252 @@
+
+body {
+    background: linear-gradient(rgb(0, 0, 66), rgb(0, 0, 114), rgb(0, 0, 66));
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'cocogoose';
+    src: url(../imagens/Cocogoose-Pro-Semilight-trial.ttf);
+}
+
+header {
+    background-image: url(../imagens/vector-OCT-2020-116_generated.jpg);
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sobre {
+    font-family: 'cocogoose';
+    transition: transform 0.3s ease;
+
+}
+
+.sobre:hover {
+    transform: scale(1.03);
+    border-bottom: 2px solid white;
+}
+
+.bi-twitter-x, .bi-instagram {
+    font-size: 23px;
+    color: white;
+    transition: transform 0.3s ease;
+
+}
+
+.bi-twitter-x:hover {
+    transform: scale(1.03);
+}
+
+.bi-instagram:hover {
+    transform: scale(1.03);
+}
+
+.botao-contato {
+    font-family: 'cocogoose';
+    background-color: #78c3d4;
+    transition: transform 0.3s ease;
+    border-radius: 5px;
+}
+
+.botao-contato:hover {
+    transform: scale(1.04);
+}
+
+
+.max {
+    font-family: 'cocogoose';
+}
+
+.titulo {
+    font-family: 'cocogoose';
+}
+
+.botao_orcamento {
+    transition: transform 0.3s ease;
+}
+
+.botao_orcamento :hover {
+    transform: scale(1.04);
+}
+
+.orcamento {
+    border-radius: 15px;
+    background-color: #78c3d4;
+    transition: transform 0.3s ease;
+    font-family: 'cocogoose';
+}
+
+.orcamento :hover {
+    transform: scale(1.04);
+}
+
+
+.quemsomos {
+    font-family: 'cocogoose';
+    margin-top: 70px;
+    color: #78c3d4;
+}
+
+.empresaesp {
+    color: #78c3d4;
+}
+
+.div-video {
+    margin-top: 70px;
+}
+
+.video {
+    border-radius: 15px;
+    box-shadow: 5px 5px #78c3d4;
+}
+
+#historia {
+    margin-top: 70px;
+}
+
+#historia h2 {
+    font-family: 'cocogoose';
+    color: #78c3d4;
+}
+
+#cards {
+    margin-top: 100px;
+    background-color: rgb(0, 0, 121);
+    padding: 50px;
+    border-bottom: 10px solid rgb(26, 0, 157);
+    border-top: 10px solid rgb(26, 0, 157);
+}
+
+.bi-clock, .bi-cash-coin, .bi-phone {
+    font-size: 40px;
+}
+
+.titulo-card {
+    font-family: 'cocogoose';
+    color: #78c3d4;
+}
+
+.titulo-historia {
+    font-family: 'cocogoose';
+    color: #78c3d4;
+}
+
+.depoimentos {
+    font-family: 'cocogoose';
+    color: #78c3d4;
+}
+
+.membrodepoimento {
+    color: #78c3d4;
+}
+.card {
+    background-color: #78c3d4;
+}
+
+.cardsub {
+    font-family: 'cocogoose';
+}
+
+.linha {
+    height: 4px;
+    background-color: white;
+    border: none;
+    margin-top: 80px;
+}
+
+#apoios {
+    background: linear-gradient(to left, rgb(0, 0, 181), rgb(0, 0, 213), rgb(0, 0, 181));
+    padding: 50px;
+    border-top: 10px solid rgb(26, 0, 157);
+    border-bottom: 10px solid rgb(26, 0, 157);
+    margin-top: 200px;
+}
+
+.titulo-apoios {
+    font-family: 'cocogoose';
+    color: #78c3d4;
+}
+
+.instituicao {
+    transition: transform 0.3s ease;
+
+}
+
+.instituicao:hover {
+    transform: scale(1.03);
+}
+
+.card-apoio {
+    background: transparent;
+    border: none;
+}
+
+.card-google {
+    margin-top: 100px;
+}
+
+.div2 {
+    margin-top: 150px;
+
+}
+
+.titulo-entre-contato {
+    color: #78c3d4;
+    font-family: 'cocogoose';
+}
+
+.form {
+    color: #78c3d4;
+    font-family: 'cocogoose';
+}
+
+.form-control {
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+
+.form-control:hover {
+    transform: scale(1.02);
+    border: 3px rgb(0, 0, 138) solid;
+}
+
+.titulo-sede {
+    font-family: 'cocogoose';
+    color: #78c3d4;
+}
+
+.mapa {
+    border-radius: 0 0 10px 10px;
+    box-shadow: 3px 4px 2px white;
+}
+
+.rodape {
+    background-color: #509bac;
+    margin-top: 60px;
+}
+
+.titulo-rodape {
+    font-family: 'cocogoose';
+}
+
+.institucional {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logowhatsapp {
+    width: 25px;
+}
+.logoinstagram {
+    width: 45px;
+}
+
+.logofacebook {
+    width: 45px;
+}
+
+.logotwitter {
+    width: 45px;
+    border-radius: 30px;
+}

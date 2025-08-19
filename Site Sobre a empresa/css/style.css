@@ -1,0 +1,115 @@
+body {
+    background-color: rgba(1,19,41,255);
+    margin: 0;
+    background-image:url(../imagens/vector-OCT-2020-116_generated.jpg);
+}
+
+.navegacao {
+    background-color: #509bac;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sobre {
+    font-family: 'cocogoose';
+    transition: transform 0.3s ease;
+
+}
+
+.sobre:hover {
+    transform: scale(1.03);
+}
+
+.logo_twitter {
+    width: 35px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+
+}
+
+.logo_twitter:hover {
+     transform: scale(1.03);
+}
+
+.logo_instagram {
+    width: 37px;
+    transition: transform 0.3s ease;
+
+}
+
+.logo_instagram:hover {
+     transform: scale(1.03);
+}
+
+.contato {
+    background-color: #59c1d8 ;
+    transition: transform 0.3s ease;
+}
+
+.contato:hover {
+    transform: scale(1.04);
+}
+
+@font-face {
+    font-family: 'cocogoose';
+    src: url(../imagens/Cocogoose-Pro-Semilight-trial.ttf);
+}
+.destaque {
+    width: 65%;
+    border: 7px solid rgb(0, 19, 80);
+    border-radius: 10px;
+}
+.imgdestaque {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.max {
+    font-family: 'cocogoose';
+}
+
+.historia {
+    color: #78c3d4;
+    font-family: 'cocogoose';
+    margin-top: 40px;
+}
+
+.quemsomosubt {
+    color: #59c1d8;
+    font-family: 'cocogoose';
+    transition: transform 0.3s ease;
+}
+
+.quemsomosubt:hover {
+     transform: scale(1.03);
+}
+
+.rodape {
+    background-color: #509bac;
+    margin-top: 60px;
+}
+
+.titrodape {
+    font-family: 'cocogoose';
+}
+
+.institucional {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logowhatsapp {
+    width: 25px;
+}
+.logoinstagram {
+    width: 45px;
+}
+
+.logofacebook {
+    width: 45px;
+}
+
+.logotwitter {
+    width: 45px;
+    border-radius: 30px;
+}

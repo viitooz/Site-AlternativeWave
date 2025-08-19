@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: rgba(1,19,41,255);
+    background-image: url(../imagens/vector-OCT-2020-116_generated.jpg);
+    background-size: cover;
+}
+
+.navegacao {
+    background-color: #509bac;
+}
+ul {
+    list-style-type: none;
+}
+
+
+.sobre {
+    font-family: 'cocogoose';
+    transition: transform 0.3s ease;
+
+}
+
+.sobre:hover {
+    transform: scale(1.03);
+
+}
+
+.logo_twitter {
+    width: 35px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.logo_twitter:hover {
+    transform: scale(1.03);
+}
+
+.logo_instagram {
+    width: 37px;
+    transition: transform 0.3s ease;
+}
+
+.logo_instagram:hover {
+     transform: scale(1.03);
+}
+
+.contato {
+    background-color: #59c1d8 ;
+
+}
+
+@font-face {
+    font-family: 'cocogoose';
+    src: url(../imagens/Cocogoose-Pro-Semilight-trial.ttf);
+}
+.destaque {
+    width: 65%;
+    border: 7px solid rgb(0, 19, 80);
+    border-radius: 10px;
+}
+.imgdestaque {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.max {
+    font-family: 'cocogoose';
+}
+
+.integrantes {
+    font-family: 'cocogoose';
+    color: #78c3d4;
+}
+
+.int_subt {
+    font-family: 'cocogoose';
+    color: #78c3d4;
+}
+
+.imgint {
+    transition: transform 0.3s ease;
+}
+
+.imgint:hover {
+    transform: scale(1.05);
+}
+
+.rodape {
+    background-color: #509bac;
+}
+.institucional {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logowhatsapp {
+    width: 25px;
+}
+.logoinstagram {
+    width: 45px;
+}
+
+.logofacebook {
+    width: 45px;
+}
+
+.logotwitter {
+    width: 45px;
+    border-radius: 30px;
+}
